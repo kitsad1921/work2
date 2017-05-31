@@ -1,0 +1,17 @@
+
+<form ng-submit="doLogin()">
+<div class="list has-subheader">
+  <label class="item item-input">
+    <span class="input-label">Username</span>
+    <input type="text" ng-model="login.username">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password" ng-model="login.password">
+  </label>
+  <button class="button button-block button button-positive">
+ Login
+</button>
+</div>
+</form>
+ 
