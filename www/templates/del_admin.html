@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  
+  <title>Document</title>
+ </head>
+ <body>
+ <form ng-submit="delAdmin()">
+ <div class="bar bar-header bar-positive">
+  <h1 class="title">***ลบผู้ดูแลระบบ***</h1>
+</div>
+<div class="list has-subheader">
+    <label class="item item-input">
+    <span class="input-label">ID : </span>
+    <input type="text" ng-model="adminDel.admin_id">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Username</span>
+    <input type="hidden" ng-model="adminDatas.admin_user">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="hidden" ng-model="adminDatas.admin_password ">
+  </label>
+  <button type ="submit" class="button button-block button-positive">
+ ลบข้อมูล
+</button>
+</div>
+</form>
+
+ </body>
+</html>
+

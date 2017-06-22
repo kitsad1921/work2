@@ -1,8 +1,11 @@
 <div class="list card">
+
 <a ui-sref="login">
 <button class="button icon-left ion-home">Home</button></a>
 <a ui-sref="history">
 <button class="button icon-left">History</button></a>
+<a ui-sref="list">
+<button class="button icon-left">list</button></a>
 <a ui-sref="Setting">
 <button class="button icon-left">Setting</button></a>
 
